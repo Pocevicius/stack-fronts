@@ -10,6 +10,6 @@ type InputType={
 const Input: React.FC<InputType>=({placeholder,value,onChange})=>{
 
     return(
-        <input value={value} placeholder={placeholder} className={styles.main} onChange={(questions)=>onChange(questions.target.value)}
+        <input value={value} placeholder={placeholder} className={styles.main} onChange={(questions)=>onChange(questions.target.value)}/>
     )
 }
